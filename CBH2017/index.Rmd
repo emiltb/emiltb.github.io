@@ -13,8 +13,26 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ## Acknowledgements
-GR105
-Gianluigi and co-workers
+<div class="columns-2">
+<center><img src="pasted-svg-488761x243.svg" height="80"></center>
+<br />
+**Aarhus University, Denmark**
+
+* Prof. Kim Daasbjerg
+* Ass. Prof. Steen Uttrup Pedersen
+* The Organic Surface Chemistry group
+
+
+<center><img src="McMaster_University_logo.svg.png" height="80"></center>
+
+<br />
+**McMaster University, Canada**
+
+* Gianluigi Botton
+* Samantha Stambula
+
+
+</div>
 
 ## Bulk graphene production
 
