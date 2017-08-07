@@ -1,0 +1,75 @@
+---
+title: "Efficient Graphene Production by Combined Bipolar Electrochemical Intercalation and High-Shear Exfoliation"
+subtitle: "Carbonhagen 2017"
+author: "Emil Tveden Bjerglund"
+date: "August 16, 2017"
+output: 
+  ioslides_presentation:
+    css: styles.css
+    theme: spacelab
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## R Markdown
+
+This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+
+## Slide with Bullets
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+## Slide with R Output
+
+```{r cars, echo = TRUE}
+summary(cars)
+```
+
+## Slide with Plot
+
+```{r pressure}
+plot(pressure)
+```
+
+
+## Acknowledgements
+GR105
+Gianluigi and co-workers
+
+## Bulk graphene production
+
+### High shear exfoliation
+
+Used by Coleman.. Earlier..
+
+### Bipolar electrochemistry
+
+What is it, and why do we want to use it
+
+## Combined high-shear exfoliation and bipolar electrochemistry
+<img src="TOC_Graphic.png" width="75%">
+
+### Method description
+
+## Initial results
+<img src="Figure_2_Solutions.png" width="75%">
+
+Yield
+
+## Raman spectroscopy
+
+## Flake sizes
+
+## Transmission Electron Microscopy
+
+## STEM-EELS
+
+## XPS (might not include)
+
+## Conclusions
