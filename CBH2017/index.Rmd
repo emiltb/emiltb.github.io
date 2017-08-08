@@ -6,6 +6,7 @@ date: "August 16, 2017"
 output: 
   ioslides_presentation:
     widescreen: true
+    css: styles.css
 ---
 
 ```{r setup, include=FALSE}
@@ -13,25 +14,20 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ## Acknowledgements
+<div class="columns-2"><img src="figs/aulogo-01.png" height="80">
+<br><br>
+<img src="figs/McMaster_University_logo.svg.png" height="80"></div>
 <div class="columns-2">
-<center><img src="pasted-svg-488761x243.svg" height="80"></center>
-<br />
 **Aarhus University, Denmark**
 
 * Prof. Kim Daasbjerg
 * Ass. Prof. Steen Uttrup Pedersen
 * The Organic Surface Chemistry group
 
-
-<center><img src="McMaster_University_logo.svg.png" height="80"></center>
-
-<br />
 **McMaster University, Canada**
 
 * Gianluigi Botton
 * Samantha Stambula
-
-
 </div>
 
 ## Bulk graphene production
@@ -45,23 +41,42 @@ Used by Coleman.. Earlier..
 What is it, and why do we want to use it
 
 ## Combined high-shear exfoliation and bipolar electrochemistry
-<img src="TOC_Graphic.png" width="75%">
+<div style="text-align: center;margin-bottom: 15px;"><img src="figs/TOC_Graphic.png" width="60%"></div>
 
-### Method description
+1. Bipolar electrochemical intercalation of Bu~4~NBF~4~ using stainless steel electrodes at 1100 V (1 cm apart)
+2. High-shear exfoliation at 6000 rpm for 1 hour.
 
-## Initial results
-<img src="Figure_2_Solutions.png" width="75%">
 
-Yield
+---
+
+<div style="text-align: center;margin-bottom: 15px;"><img src="figs/Figure_2_Solutions.png" width="75%"></div>
+<div id="control">
+a) Bipolar electrochemistry + high-shear exfoliation
+b) High-shear exfoliation
+c) Bipolar electrochemistry (without Bu~4~NBF~4~) + High-shear exfoliation
+</div>
 
 ## Raman spectroscopy
+<div style="text-align: center;margin-bottom: 15px;"><img src="figs/Figure_4_ramanSpectrum.png" width="100%"></div>
 
 ## Flake sizes
+<div style="text-align: center;margin-bottom: 15px;"><img src="figs/Figure_5_flakesize.png" width="100%"></div>
 
 ## Transmission Electron Microscopy
+<div style="text-align: center;margin-bottom: 15px;"><img src="figs/Figure_6_HRTEM.png" width="100%"></div>
 
 ## STEM-EELS
 
+
+<div align="center">
+<iframe width="400" height="150" src="https://www.youtube.com/watch?v=Ngm8mfRtQhc" frameborder="0" allowfullscreen></iframe>
+</div>
+
+---
+
+<div style="text-align: center;margin-bottom: 15px;"><img src="figs/Figure_7_EELS_analysis.png" width="90%"></div>
+
 ## XPS (might not include)
+<div style="text-align: center;margin-bottom: 15px;"><img src="figs/Figure_8_HRXPS.png" width="100%"></div>
 
 ## Conclusions

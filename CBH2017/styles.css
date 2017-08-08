@@ -1,3 +1,7 @@
 slides > slide.title-slide hgroup h1 {
     font-size: 36pt;
 }
+
+div#control ol {
+  list-style-type: lower-alpha; 
+}
