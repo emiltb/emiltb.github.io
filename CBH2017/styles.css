@@ -1,7 +1,39 @@
 slides > slide.title-slide hgroup h1 {
     font-size: 36pt;
+    max-width: 90%;
+}
+slides > slide.title-slide hgroup h2 {
+    margin-top: -25px;
 }
 
 div#control ol {
   list-style-type: lower-alpha; 
+}
+
+div.footnotes {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 10px;
+  width: 80%;
+  font-size: 0.6em;
+  line-height: 1.5em;
+}
+
+/* Card */
+div#cardtext {
+  padding: 10px 10px 0 10px;
+  font-size: 0.75em;
+  line-height: 1.5em;
+}
+
+div#cardholder {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    width: 260px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+    right: 0;
+    margin-right: 120px;
+    border-radius: 5px; /* 5px rounded corners */
 }

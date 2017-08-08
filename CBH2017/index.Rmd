@@ -1,44 +1,92 @@
 ---
-title: "Efficient Graphene Production by Combined Bipolar Electrochemical Intercalation and High-Shear Exfoliation"
-subtitle: "Carbonhagen 2017"
-author: "Emil Tveden Bjerglund"
-date: "August 16, 2017"
-output: 
+title: Efficient Graphene Production by Combined Bipolar Electrochemical Intercalation
+  and High-Shear Exfoliation
+author: "<span id='authorfield'></span>"
+date: "<span id='datefield'></span> August 16, 2017"
+subtitle: "<span style='font-size: 16pt;'>Manuscript submitted</span><br>Carbonhagen 2017"
+output:
   ioslides_presentation:
-    widescreen: true
     css: styles.css
+    widescreen: yes
+    transisition: faster
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+<script src="https://use.fontawesome.com/c538300e85.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<script>
+  $(document).ready(function() {
+    $('slide:not(.backdrop):not(.title-slide)').append('<div class=\"footnotes\">');
+
+    $('footnote').each(function(index) {
+      var text  = $(this).html();
+      var fnNum = (index+1).toString();
+      $(this).html(fnNum.sup());
+
+      var footnote   = fnNum + '. ' + text + '<br/>';
+      var oldContent = $(this).parents('slide').children('div.footnotes').html();
+      var newContent = oldContent + footnote;
+      $(this).parents('slide').children('div.footnotes').html(newContent);
+    });
+  
+    $("#authorfield").html("<i class='fa fa-fw fa-user' aria-hidden='true'></i> Emil Tveden Bjerglund<br><i class='fa fa-fw fa-graduation-cap' aria-hidden='true'></i> PhD-student<br><i class='fa fa-fw fa-university' aria-hidden='true'></i> Aarhus University");
+    $("#datefield").html("<i class='fa fa-fw fa-calendar' aria-hidden='true'></i>");
+  });
+</script>
+
 ## Acknowledgements
-<div class="columns-2"><img src="figs/aulogo-01.png" height="80">
-<br><br>
-<img src="figs/McMaster_University_logo.svg.png" height="80"></div>
+<div class="columns-2"><div style="text-align:center;"><img src="figs/aulogo-01.png" height="80"></div>
+<br>
+<div style="text-align:center;"><img src="figs/McMaster_University_logo.svg.png" height="80"></div></div>
 <div class="columns-2">
 **Aarhus University, Denmark**
 
 * Prof. Kim Daasbjerg
 * Ass. Prof. Steen Uttrup Pedersen
+* M.Sc. Michael Kristensen
 * The Organic Surface Chemistry group
 
 **McMaster University, Canada**
 
-* Gianluigi Botton
-* Samantha Stambula
+* Prof. Gianluigi Botton
+* PhD-student Samantha Stambula
 </div>
 
-## Bulk graphene production
+<br><br>
+Slides: [emiltb.github.io/CBH2017/](https://emiltb.github.io/CBH2017/)
 
-### High shear exfoliation
+## Motivation: Bulk graphene production
 
-Used by Coleman.. Earlier..
+Yadaydad graphene polymer composites
 
-### Bipolar electrochemistry
+## High shear exfoliation
 
-What is it, and why do we want to use it
+Used by Coleman.. Earlier..<footnote>*Nature Materials*, **2014**, *13*, 624---630. [10.1038/nmat3944](http://doi.org/10.1038/nmat3944)</footnote>
+
+## Bipolar electrochemistry
+
+<div style="text-align: center;margin-bottom: 15px;"><img src="figs/bipolar.png" width="60%"></div>
+
+## Bipolar electrochemistry | Our previous work
+<div class="columns-2">
+One-step preparation of bifunctionalized surfaces.<footnote>*RSC Advances*, **2016**, *6*, 3882---3887. [10.1039/C5RA20156J](http://doi.org/10.1039/C5RA20156J)</footnote>
+<div style="text-align:center"><img src="figs/bifunc.gif" width="80%"></div>
+
+<br><br><br>
+Parallel functionalisation of graphene arrays.<footnote>*Langmuir*, **2016**, *32*, 6289---6296. [10.1021/acs.langmuir.6b01309](http://doi.org/10.1021/acs.langmuir.6b01309)</footnote>
+
+<div style="text-align:center;"><img src="figs/raman_GS_plots.png" width="60%"></div>
+
+</div>
+
+## Bipolar electrochemistry | Graphite intercalation
+<div style="text-align:center;margin-top:-50px;"><img src="figs/Intercalated_foil_picture_sem-01.png" width="90%"></div>
+
+# Graphene production
 
 ## Combined high-shear exfoliation and bipolar electrochemistry
 <div style="text-align: center;margin-bottom: 15px;"><img src="figs/TOC_Graphic.png" width="60%"></div>
@@ -56,30 +104,62 @@ b) High-shear exfoliation
 c) Bipolar electrochemistry (without Bu~4~NBF~4~) + High-shear exfoliation
 </div>
 
+# Quality assessment
+
 ## Thermogravimetric analysis
-<div style="text-align: center;margin-bottom: 15px;"><img src="figs/Figure_3_TGAplot.png" width="100%"></div>
+<div class="columns-2">
+<div style="text-align: center;"><img src="figs/Figure_3_TGAplot.png" width="100%"></div>
+<!--<div style="text-align: center;margin-bottom: 15px;"><img src="figs/Figure_2_Solutions.png" width="90%"></div>-->
+<br>
+
+ Sample          Yield (%)   Corr. yield (%)
+-------     -------------- -----------------
+     a)     $21.02\pm 0.3$     $16.0\pm 0.2$
+     b)     $0.8\pm 0.1$   -
+     c)     $0.5\pm 0.1$   -
+
+</div>
+
+ XPS analysis             C (%)           O (%)          N (%)    C/N
+-------------     -------------    ------------   ------------   ----
+     Graphene     $96.6\pm 1.2$    $0.2\pm 1.1$   $1.5\pm 0.1$     66
+    After TGA     $88.3\pm 0.6$    $7.1\pm 0.9$   $0.2\pm 0.1$    393
 
 
 ## Raman spectroscopy
 <div style="text-align: center;margin-bottom: 15px;"><img src="figs/Figure_4_ramanSpectrum.png" width="100%"></div>
 
 ## Flake sizes
-<div style="text-align: center;margin-bottom: 15px;"><img src="figs/Figure_5_flakesize.png" width="100%"></div>
+<img src="figs/STEM_Measurements-01.jpg" width="31%"><img src="figs/Figure_5_flakesize.png" width="65%">
+
 
 ## Transmission Electron Microscopy
 <div style="text-align: center;margin-bottom: 15px;"><img src="figs/Figure_6_HRTEM.png" width="100%"></div>
 
-## STEM-EELS
+## STEM-EELS | Raw data
 
-<video style="width:100%;" controls autoplay>
+<video style="width:100%;" controls>
   <source src="video/graphene_hyperspy.mp4" type="video/mp4">
 </video>
 
-## STEM-EELS
+## STEM-EELS | After PCA + ICA
 
-<div style="text-align: center;margin-bottom: 15px;"><img src="figs/Figure_7_EELS_analysis.png" width="90%"></div>
-
-## XPS (might not include)
-<div style="text-align: center;margin-bottom: 15px;"><img src="figs/Figure_8_HRXPS.png" width="100%"></div>
+<div style="text-align: center;margin-bottom: 15px; margin-top: -50px;"><img src="figs/Figure_7_EELS_analysis.png" width="90%"></div>
 
 ## Conclusions
+<div style="text-align: center;margin-bottom: 15px; margin-top: -50px;"><img src="figs/summary-01.png" width="95%"></div>
+
+* Bulk graphene production at $16.0\pm 0.2\, \%$ yield
+* Wireless pretreatment through bipolar electrochemistry
+* Low defect density $(I_D / I_G = 0.24\pm 0.10)$
+* $3-6$ graphene layers
+* Future work exploring different solvents and intercalants could help with the impurities
+
+Slides: [emiltb.github.io/CBH2017/](https://emiltb.github.io/CBH2017/)
+<div id="cardholder">
+<div id="cardtext">
+<i class="fa fa-fw fa-user" aria-hidden="true"></i> Emil Tveden Bjerglund<br>
+<i class="fa fa-fw fa-envelope" aria-hidden="true"></i> emilbp@inano.au.dk<br> 
+<i class="fa fa-fw fa-globe" aria-hidden="true"></i> [emil.tbjerglund.dk](https://emil.tbjerglund.dk)
+</div>
+</div>
