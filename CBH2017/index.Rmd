@@ -48,7 +48,6 @@ knitr::opts_chunk$set(echo = FALSE)
 * Prof. Kim Daasbjerg
 * Ass. Prof. Steen Uttrup Pedersen
 * M.Sc. Michael Kristensen
-* The Organic Surface Chemistry group
 
 **McMaster University, Canada**
 
@@ -61,32 +60,37 @@ Slides: [emiltb.github.io/CBH2017/](https://emiltb.github.io/CBH2017/)
 
 ## Motivation: Bulk graphene production
 
-Yadaydad graphene polymer composites
+<div class="columns-2" style="margin-top: -50px;">
+Polymer composites<footnote>Source: [Composites Manufacturing](http://compositesmanufacturingmagazine.com/2014/12/virtual-lab-tests-clay-polymer-composite-properties/)</footnote>
+<div style="text-align:center"><img src="figs/clay-feature-750x400.jpg" style="height:200px;"></div>
 
-## High shear exfoliation
+Printable electronics<footnote>Source: Ref. Marks paper</footnote>
+<div style="text-align:center"><img src="figs/screen_printing.png" style="height:200px;"></div>
 
-Used by Coleman.. Earlier..<footnote>*Nature Materials*, **2014**, *13*, 624---630. [10.1038/nmat3944](http://doi.org/10.1038/nmat3944)</footnote>
+</div>
+
+### High shear exfoliation<footnote>*Nature Materials*, **2014**, *13*, 624---630. [10.1038/nmat3944](http://doi.org/10.1038/nmat3944)</footnote>
+<div style="text-align:center"><img src="figs/ShearExfoliation-02.png" width="55%"></div>
+
 
 ## Bipolar electrochemistry
 
 <div style="text-align: center;margin-bottom: 15px;"><img src="figs/bipolar.png" width="60%"></div>
 
 ## Bipolar electrochemistry | Our previous work
-<div class="columns-2">
+<div class="columns-2" style="margin-top:-50px;">
 One-step preparation of bifunctionalized surfaces.<footnote>*RSC Advances*, **2016**, *6*, 3882---3887. [10.1039/C5RA20156J](http://doi.org/10.1039/C5RA20156J)</footnote>
-<div style="text-align:center"><img src="figs/bifunc.gif" width="80%"></div>
+<div style="text-align:center"><img src="figs/bifunc.gif" width="100%"></div>
 
 <br><br><br>
 Parallel functionalisation of graphene arrays.<footnote>*Langmuir*, **2016**, *32*, 6289---6296. [10.1021/acs.langmuir.6b01309](http://doi.org/10.1021/acs.langmuir.6b01309)</footnote>
 
-<div style="text-align:center;"><img src="figs/raman_GS_plots.png" width="60%"></div>
+<div style="text-align:center;"><img src="figs/raman_GS_plots.png" width="80%"></div>
 
 </div>
 
 ## Bipolar electrochemistry | Graphite intercalation
 <div style="text-align:center;margin-top:-50px;"><img src="figs/Intercalated_foil_picture_sem-01.png" width="90%"></div>
-
-# Graphene production
 
 ## Combined high-shear exfoliation and bipolar electrochemistry
 <div style="text-align: center;margin-bottom: 15px;"><img src="figs/TOC_Graphic.png" width="60%"></div>
@@ -104,27 +108,36 @@ b) High-shear exfoliation
 c) Bipolar electrochemistry (without Bu~4~NBF~4~) + High-shear exfoliation
 </div>
 
-# Quality assessment
-
 ## Thermogravimetric analysis
-<div class="columns-2">
-<div style="text-align: center;"><img src="figs/Figure_3_TGAplot.png" width="100%"></div>
+<div style="text-align: center;margin-top:-50px;"><img src="figs/Figure_3_TGAplot.png" width="60%"></div>
 <!--<div style="text-align: center;margin-bottom: 15px;"><img src="figs/Figure_2_Solutions.png" width="90%"></div>-->
-<br>
+
+<div class="columns-2">
+<div>
 
  Sample          Yield (%)   Corr. yield (%)
 -------     -------------- -----------------
      a)     $21.02\pm 0.3$     $16.0\pm 0.2$
-     b)     $0.8\pm 0.1$   -
-     c)     $0.5\pm 0.1$   -
+     b)       $0.8\pm 0.1$                 -
+     c)       $0.5\pm 0.1$                 -
 
 </div>
-
+<br>
+<div>
+<!--
  XPS analysis             C (%)           O (%)          N (%)    C/N
 -------------     -------------    ------------   ------------   ----
      Graphene     $96.6\pm 1.2$    $0.2\pm 1.1$   $1.5\pm 0.1$     66
     After TGA     $88.3\pm 0.6$    $7.1\pm 0.9$   $0.2\pm 0.1$    393
+-->
 
+ XPS analysis      C/N
+-------------     ----
+     Graphene       66
+    After TGA      393
+
+</div>
+</div>
 
 ## Raman spectroscopy
 <div style="text-align: center;margin-bottom: 15px;"><img src="figs/Figure_4_ramanSpectrum.png" width="100%"></div>
@@ -135,12 +148,6 @@ c) Bipolar electrochemistry (without Bu~4~NBF~4~) + High-shear exfoliation
 
 ## Transmission Electron Microscopy
 <div style="text-align: center;margin-bottom: 15px;"><img src="figs/Figure_6_HRTEM.png" width="100%"></div>
-
-## STEM-EELS | Raw data
-
-<video style="width:100%;" controls>
-  <source src="video/graphene_hyperspy.mp4" type="video/mp4">
-</video>
 
 ## STEM-EELS | After PCA + ICA
 
