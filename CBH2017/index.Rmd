@@ -130,7 +130,7 @@ Control 2        $0.8\pm 0.1$                 -
 ## Raman spectroscopy
 <div style="text-align: center;margin-bottom: 15px;"><img src="figs/Figure_4_ramanSpectrum.png" width="100%"></div>
 
-Estimated $3-6$ graphene layers.
+Estimated $4-6$ graphene layers.
 
 ## Flake sizes
 <img src="figs/STEM_Measurements-01.jpg" width="31%"><img src="figs/Figure_5_flakesize.png" width="65%">
@@ -148,7 +148,7 @@ Estimated $3-6$ graphene layers.
 * Bulk graphene production at $16.0\pm 0.2\, \%$ yield
 * Wireless pretreatment through bipolar electrochemistry
 * Low defect density $(I_D / I_G = 0.24\pm 0.10)$
-* $3-6$ graphene layers
+* $4-6$ graphene layers
 * Future work exploring different solvents and intercalants could help with the impurities
 
 Slides: [emiltb.github.io/CBH2017/](https://emiltb.github.io/CBH2017/)
