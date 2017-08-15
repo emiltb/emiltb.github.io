@@ -61,23 +61,23 @@ Slides: [emiltb.github.io/CBH2017/](https://emiltb.github.io/CBH2017/)
 ## Motivation: Bulk graphene production
 
 <div class="columns-2" style="margin-top: -50px;">
-Polymer composites<footnote>Source: [Composites Manufacturing](http://compositesmanufacturingmagazine.com/2014/12/virtual-lab-tests-clay-polymer-composite-properties/)</footnote>
+Polymer composites<footnote>[Composites Manufacturing](http://compositesmanufacturingmagazine.com/2014/12/virtual-lab-tests-clay-polymer-composite-properties/)</footnote>
 <div style="text-align:center"><img src="figs/clay-feature-750x400.jpg" style="height:200px;"></div>
 
-Printable electronics<footnote>Source: Ref. Marks paper</footnote>
+Printable electronics<footnote>*Advanced Materials Technologies*, **2017**, *2*, 1700011. [10.1002/admt.201700011](https://doi.org/10.1002/admt.201700011)</footnote>
 <div style="text-align:center"><img src="figs/screen_printing.png" style="height:200px;"></div>
 
 </div>
 
 ### High shear exfoliation<footnote>*Nature Materials*, **2014**, *13*, 624---630. [10.1038/nmat3944](http://doi.org/10.1038/nmat3944)</footnote>
-<div style="text-align:center"><img src="figs/ShearExfoliation-02.png" width="55%"></div>
+<div style="text-align:center;"><img src="figs/ShearExfoliation-02.png" width="55%" style="margin-right: 10px;"><span style="vertical-align: top;">< 0.1 % yield per batch<span></div>
 
 
 ## Bipolar electrochemistry
 
 <div style="text-align: center;margin-bottom: 15px;"><img src="figs/bipolar.png" width="60%"></div>
 
-## Bipolar electrochemistry | Our previous work
+## Bipolar electrografting | Our previous work
 <div class="columns-2" style="margin-top:-50px;">
 One-step preparation of bifunctionalized surfaces.<footnote>*RSC Advances*, **2016**, *6*, 3882---3887. [10.1039/C5RA20156J](http://doi.org/10.1039/C5RA20156J)</footnote>
 <div style="text-align:center"><img src="figs/bifunc.gif" width="100%"></div>
@@ -90,57 +90,47 @@ Parallel functionalisation of graphene arrays.<footnote>*Langmuir*, **2016**, *3
 </div>
 
 ## Bipolar electrochemistry | Graphite intercalation
-<div style="text-align:center;margin-top:-50px;"><img src="figs/Intercalated_foil_picture_sem-01.png" width="90%"></div>
+<div style="text-align:center;margin-top:-50px;"><img src="figs/Intercalated_foil_picture_sem-01.png" width="100%"></div>
 
-## Combined high-shear exfoliation and bipolar electrochemistry
-<div style="text-align: center;margin-bottom: 15px;"><img src="figs/TOC_Graphic.png" width="60%"></div>
+## Combined bipolar electrochemistry and high-shear exfoliation
+<img src="figs/TOC_Graphic.png" width="60%"><div style="width: 35%;float:right;"><span style="vertical-align: top;">$\Delta V$ across graphite flake: $$\frac{1100\, V}{1\, cm} 100\, \mu m = 11\, V$$</span></div>
+<br>
 
-1. Bipolar electrochemical intercalation of Bu~4~NBF~4~ using stainless steel electrodes at 1100 V (1 cm apart)
-2. High-shear exfoliation at 6000 rpm for 1 hour.
+1. Bipolar electrochemical intercalation at 1100 V (electrodes 1 cm apart)
+2. High-shear exfoliation at 6000 rpm
 
 
 ---
 
-<div style="text-align: center;margin-bottom: 15px;"><img src="figs/Figure_2_Solutions.png" width="75%"></div>
-<div id="control">
-a) Bipolar electrochemistry + high-shear exfoliation
-b) High-shear exfoliation
-c) Bipolar electrochemistry (without Bu~4~NBF~4~) + High-shear exfoliation
-</div>
+<div style="text-align: center;margin-top:-50px;"><img src="figs/Figure_2_Solutions-01.png" width="95%"></div>
 
-## Thermogravimetric analysis
-<div style="text-align: center;margin-top:-50px;"><img src="figs/Figure_3_TGAplot.png" width="60%"></div>
+
+## Thermogravimetric analysis | Estimating the amount of residual solvent on graphene
+<div style="text-align: center;margin-top:-50px;"><img src="figs/Figure_3_TGAplot.png" width="50%"></div>
 <!--<div style="text-align: center;margin-bottom: 15px;"><img src="figs/Figure_2_Solutions.png" width="90%"></div>-->
 
-<div class="columns-2">
-<div>
+<div style="width: 49%;float:left;">
 
- Sample          Yield (%)   Corr. yield (%)
--------     -------------- -----------------
-     a)     $21.02\pm 0.3$     $16.0\pm 0.2$
-     b)       $0.8\pm 0.1$                 -
-     c)       $0.5\pm 0.1$                 -
-
-</div>
-<br>
-<div>
-<!--
- XPS analysis             C (%)           O (%)          N (%)    C/N
--------------     -------------    ------------   ------------   ----
-     Graphene     $96.6\pm 1.2$    $0.2\pm 1.1$   $1.5\pm 0.1$     66
-    After TGA     $88.3\pm 0.6$    $7.1\pm 0.9$   $0.2\pm 0.1$    393
--->
-
- XPS analysis      C/N
--------------     ----
-     Graphene       66
-    After TGA      393
+Sample              Yield (%)   Corr. yield (%)
+-------        -------------- -----------------
+Production     $21.02\pm 0.3$     $16.0\pm 0.2$
+Control 1        $0.5\pm 0.1$                 -
+Control 2        $0.8\pm 0.1$                 -
 
 </div>
+<div style="width: 49%;float:right;">
+
+ XPS analysis                       N/C
+-------------     ---------------------
+   Before TGA       $1.52\cdot 10^{-2}$
+    After TGA       $0.25\cdot 10^{-2}$
+
 </div>
 
 ## Raman spectroscopy
 <div style="text-align: center;margin-bottom: 15px;"><img src="figs/Figure_4_ramanSpectrum.png" width="100%"></div>
+
+Estimated $3-6$ graphene layers.
 
 ## Flake sizes
 <img src="figs/STEM_Measurements-01.jpg" width="31%"><img src="figs/Figure_5_flakesize.png" width="65%">
@@ -149,9 +139,8 @@ c) Bipolar electrochemistry (without Bu~4~NBF~4~) + High-shear exfoliation
 ## Transmission Electron Microscopy
 <div style="text-align: center;margin-bottom: 15px;"><img src="figs/Figure_6_HRTEM.png" width="100%"></div>
 
-## STEM-EELS | After PCA + ICA
-
-<div style="text-align: center;margin-bottom: 15px; margin-top: -50px;"><img src="figs/Figure_7_EELS_analysis.png" width="90%"></div>
+## STEM-EELS (After PCA + ICA)
+<div style="text-align: center;margin-top: -50px;"><img src="figs/EELS_analysis-01.png" width="98%"></div>
 
 ## Conclusions
 <div style="text-align: center;margin-bottom: 15px; margin-top: -50px;"><img src="figs/summary-01.png" width="95%"></div>

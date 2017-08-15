@@ -6,10 +6,6 @@ slides > slide.title-slide hgroup h2 {
     margin-top: -25px;
 }
 
-div#control ol {
-  list-style-type: lower-alpha; 
-}
-
 div.footnotes {
   position: absolute;
   bottom: 0;
