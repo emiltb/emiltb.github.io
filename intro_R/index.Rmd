@@ -1,12 +1,13 @@
 ---
-title: What is R and what can we do with it?
+title: "What is R and what can we do with it?"
 author: "<span id='authorfield'></span>"
 date: "<span id='datefield'></span> September 21, 2017"
 output:
   ioslides_presentation:
     css: styles.css
-    widescreen: yes
     transisition: faster
+    widescreen: yes
+  beamer_presentation: default
 ---
 
 ```{r setup, include=FALSE}
@@ -66,6 +67,15 @@ Slides: [emiltb.github.io/intro_R/](https://emiltb.github.io/intro_R/)
 </div>
 </div>
 
+## How do you learn programming?
+<div class="columns-2">
+<img src="figs/learn-programming.jpg" width="80%">
+
+<img src="figs/r-excel-graph.png" width="98%">
+
+I will point out some good ressources later.
+</div>
+
 ## R and RStudio
 <div style="text-align: center;margin-top:-50px;"><img src="figs/Rstudio.png" width="70%"></div>
 
@@ -73,10 +83,14 @@ Slides: [emiltb.github.io/intro_R/](https://emiltb.github.io/intro_R/)
 * R can be used to output to many different formats
 * Write everything in plain text and decide how to share it later
 
+<!---
 ### Ways of R'ing
 * R scripts: Read and transform data, make plots, save functions
 * R Markdown: Generate reports, write lab journals incl. analysis, save to HTML, PDF, Word
 * R packages: Collect groups of functions for reuse
+--->
+<div style="text-align: center;"><img src="figs/R_overview.svg" width="90%"></div>
+
 
 ## Examples | R script for general analysis
 
@@ -92,10 +106,59 @@ data <- tibble(files = list.files(path, pattern = "*.csv")) %>%
 
 ## Examples | Lab journal in R Markdown
 <div style="text-align: center;margin-top:-50px;"><img src="figs/Labjournal.png" width="80%">
-[emiltb.github.io/graphene-production/](https://emiltb.github.io/graphene-production/)
+[emiltb.github.io/graphene-production/](https://emiltb.github.io/graphene-production/lab_journal.html)
 </div>
 
 
-## Examples | R package for reusing code
+## Examples | R packages for reusing code
+
+* The Comprensive R Archive Network (CRAN) has more than 11.000 packages
+* Even more packages in development on Github
+
+* We can make our own package for the group (https://github.com/SPOMAN/osc)
+    * Shared functions for loading data (electrochemistry, XPS, Raman etc.)
+    * Plots with a unified look
+    * Easier collaboration by keeping data and scripts in a common place
+    * Easy to install for everyone
+    
+```r
+devtools::install_github('spoman/osc')
+```
+
+## Questions and discussion
+
+How does this fit into your work and could you see yourself working with this?
+
+## What should we study
+
+How should we organize the study group so that everyone can benefit?
+
+**Topics**
+
+*	Loading and cleaning data
+*	Plotting using ggplot2
+*	Reusing code in a package
+
+## Communication
+When working with R you might quickly end up having brief questions for other people – where to ask those?
+
+### We could use Slack! http://bit.ly/2ysN7F5
+<div style="text-align: center;"><img src="figs/slack.png" width="50%"></div>
+
 
 ## Getting started with R on your own computer
+We can try to install R and RStudio and do some basic examples. 
+
+* Download R: R-project.org > Download > Choose a Mirror > Choose your OS
+* Download RStudio: rstudio.com > Download Free RStudio Desktop > Find your OS
+* Install both and once you have RStudio open, try to run a few commands.
+
+```r
+x <- seq(1, 100, by = 1)
+y <- x^2
+plot(x,y)
+```
+
+* Install the package `tidyverse`
+
+Also - the link to Slack: http://bit.ly/2ysN7F5

@@ -1,8 +1,13 @@
 library(tidyverse)
+library(magrittr)
 
 path = "data/"
 
-data <- tibble(files = list.files(path, pattern = "*.csv")) %>% 
+data <- tibble(files = list.files(path, pattern = "*.csv"))
+
+data
+
+data %<>% 
   mutate(data = map(paste0(path,files), read_delim, delim = ";", skip = 1))
 
 data
