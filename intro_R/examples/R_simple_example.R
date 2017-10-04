@@ -22,9 +22,11 @@ data %>%
 
 data %>% 
   unnest() %>% 
+  filter(nm > 400) %>% 
   ggplot(aes(x = nm, y = A, color = files)) +
   geom_line() +
-  labs(x = "Wavelength (nm)", "Absorption (a.u.)", color = "Sample")
+  labs(x = "Wavelength (nm)", "Absorption (a.u.)", color = "Sample") +
+  facet_wrap(~files, scales = "free")
 
 data %>% 
   unnest() %>% 
